@@ -160,7 +160,6 @@
                                 echo '<div class="col">';
                                 echo '<a href="' . $contacto['url'] . '" class="btn btn-primary w-100" target="_blank"><i class="' . $icon . '"></i> ' . ucfirst($contacto['tipo']) . '</a>';
                                 echo '</div>';
-                                echo "bi bi-".$contacto['tipo'];
                             }
                             echo '</div>';
                         } else {
