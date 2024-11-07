@@ -52,7 +52,7 @@
                 while($dato = $result->fetch_assoc()) {
                     echo '<div class="col-lg-4 mb-5">';
                     echo '<div class="card h-100">';
-                    echo '<img src="'. $dato["img"] .'" class="card-img-top" alt="Imagen de ' . $dato["nombre"] . '">';
+                    echo '<img src="'. $dato["img"] .'" class="card-img-top fixed-size-img" alt="Imagen de ' . $dato["nombre"] . '">';
                     echo '<div class="card-body">';
                     echo '<h5 class="card-title">' . $dato["nombre"] . '</h5>';
                     echo '<p class="card-text">' . $dato["descripcion_corta"] . '</p>';
@@ -67,6 +67,13 @@
             $conn->close();
             ?>
         </div>
+
+        <style>
+            .fixed-size-img {
+                height: 28vh;
+                object-fit: cover;
+            }
+        </style>
     </div>
 </section>
 

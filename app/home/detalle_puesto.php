@@ -138,15 +138,6 @@
                             while($contacto = $result_contacto->fetch_assoc()) {
                                 $icon = '';
                                 switch ($contacto['tipo']) {
-                                    case 'facebook':
-                                        $icon = 'bi bi-facebook';
-                                        break;
-                                    case 'instagram':
-                                        $icon = 'bi bi-instagram';
-                                        break;
-                                    case 'whatsapp':
-                                        $icon = 'bi bi-whatsapp';
-                                        break;
                                     case 'telefono':
                                         $icon = 'bi bi-telephone-fill';
                                         break;
@@ -156,10 +147,20 @@
                                     case 'pagina web':
                                         $icon = 'bi bi-link-45deg';
                                         break;
+                                    default:
+                                        // si no se encuentra el tipo, se muestra un icono de información
+                                        if (empty($contacto['tipo'])) {
+                                            $icon = 'bi bi-info-circle-fill';
+                                        }
+                                        else{
+                                            $icon = 'bi bi-'.$contacto['tipo']; // si se encuentra el tipo, se muestra el icono correspondiente
+                                        }
+                                        break;
                                 }
                                 echo '<div class="col">';
                                 echo '<a href="' . $contacto['url'] . '" class="btn btn-primary w-100" target="_blank"><i class="' . $icon . '"></i> ' . ucfirst($contacto['tipo']) . '</a>';
                                 echo '</div>';
+                                echo "bi bi-".$contacto['tipo'];
                             }
                             echo '</div>';
                         } else {
