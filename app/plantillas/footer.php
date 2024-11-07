@@ -20,7 +20,7 @@
                 </p>
                 <!-- Redes Sociales -->
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#" target="_blank"><i class="bi bi-facebook text-white"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/ucaribeoficial/?locale=es_LA" target="_blank"><i class="bi bi-facebook text-white"></i></a></li>
                     <li class="list-inline-item"><a href="#" target="_blank"><i class="bi bi-whatsapp text-white"></i></a></li>
                     <li class="list-inline-item"><a href="https://www.unicaribe.mx/" target="_blank"><i class="bi bi-link text-white"></i></a></li>
                 </ul>

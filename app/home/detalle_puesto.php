@@ -13,14 +13,18 @@
     }
 
     // Obtener los datos del puesto
+    $id_puesto = filter_var($_GET['id'], FILTER_VALIDATE_INT);
     $sql = "
     SELECT
     p.*, img.url AS img
     FROM puesto p
     JOIN imagenes_puesto img ON p.id = img.id
-    WHERE p.id = ".$_GET['id']."
+    WHERE p.id = ?
     ";
-    $result = $conn->query($sql);
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i", $id_puesto);
+    $stmt->execute();
+    $result = $stmt->get_result();
     $datos = $result->fetch_assoc();
 
     // detalles de la pagina
@@ -54,7 +58,7 @@
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <?php
-                            $sql_imagenes = "SELECT url FROM imagenes_puesto WHERE puesto_id = " . $_GET['id'];
+                            $sql_imagenes = "SELECT url FROM imagenes_puesto WHERE puesto_id = " . $id_puesto;
                             $result_imagenes = $conn->query($sql_imagenes);
                             $active = 'active';
                             $index = 0;
@@ -108,7 +112,7 @@
                     <!-- codigo para recuperar los horarios del puesto -->
                     <h5>Horario de Venta:</h5>
                     <?php
-                    $sql_horarios = "SELECT dia, TIME_FORMAT(hora_inicio, '%H:%i') AS hora_inicio, TIME_FORMAT(hora_fin, '%H:%i') AS hora_fin FROM horario_puesto WHERE puesto_id = " . $_GET['id'];
+                    $sql_horarios = "SELECT dia, TIME_FORMAT(hora_inicio, '%H:%i') AS hora_inicio, TIME_FORMAT(hora_fin, '%H:%i') AS hora_fin FROM horario_puesto WHERE puesto_id = " . $id_puesto;
                     $result_horarios = $conn->query($sql_horarios);
                     if ($result_horarios->num_rows > 0) {
                         echo '<table class="table table-sm">';
@@ -131,7 +135,7 @@
                         <hr>
                         <h5 class="card-title">Información de Contacto</h5>
                         <?php
-                        $sql_contacto = "SELECT tipo, url FROM contacto_puesto WHERE puesto_id = " . $_GET['id'];
+                        $sql_contacto = "SELECT tipo, url FROM contacto_puesto WHERE puesto_id = " . $id_puesto;
                         $result_contacto = $conn->query($sql_contacto);
                         if ($result_contacto->num_rows > 0) {
                             echo '<div class="row row-cols-1 row-cols-md-2 g-2">';
@@ -177,7 +181,7 @@
                 <h3>Productos</h3>
             </div>
             <?php
-            $sql_productos = "SELECT * FROM producto WHERE puesto_id = " . $_GET['id'];
+            $sql_productos = "SELECT * FROM producto WHERE puesto_id = " . $id_puesto;
             $result_productos = $conn->query($sql_productos);
             if ($result_productos->num_rows > 0) {
                 while($producto = $result_productos->fetch_assoc()) {
@@ -208,13 +212,13 @@
             }
         </style>
 
-
-
-
     </div>
 </section>
 
 <?php 
+$stmt->close();
+$conn->close();
+// incluir contenido de la pagina (plantillas)
 include($templateDetails['footer']);
 include($templateDetails['end']);
 ?>
