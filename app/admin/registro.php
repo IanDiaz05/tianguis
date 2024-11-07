@@ -166,11 +166,11 @@ $(document).ready(function() {
 </script>
 
 <?php 
+include($templateDetails['footer']);
+include($templateDetails['end']);
 // mensajes
 if (isset($_SESSION['message'])) {
     echo '<script>alert("' . $_SESSION['message'] . '")</script>';
     unset($_SESSION['message']);
 }
-include($templateDetails['footer']);
-include($templateDetails['end']);
 ?>

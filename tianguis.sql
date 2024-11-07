@@ -9,7 +9,7 @@ CREATE TABLE vendedor (
     apellido VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
     telefono VARCHAR(100) NOT NULL,
-    password VARCHAR(100) NOT NULL
+    password VARCHAR(255) NOT NULL
 );
 
 # informacion de los puestos de los vendedores
