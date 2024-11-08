@@ -74,7 +74,10 @@ include($templateDetails['header']);
             
             <div class="container px-5 my-5">
                 <div class="row gx-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">Administra tu puesto de manera sencilla.</h2></div>
+                    <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">Administra tu puesto de manera sencilla.</h2>
+                    <!-- link para cerrar la sesion -->
+                    <a href="../../BE/admin/logout.php" class="btn btn-secondary mt-3">Cerrar Sesión</a>
+                </div>
                     <div class="col-lg-8">
                         <div class="row gx-5 row-cols-1 row-cols-md-2">
                             <div class="col mb-5 h-100">
@@ -99,10 +102,24 @@ include($templateDetails['header']);
                     <h4 class="alert-heading">¡Espera, aún no tienes un puesto registrado!</h4>
                     <p>Para comenzar a vender en el Tianguis del Mayab, necesitas registrar tu puesto.</p>
                     <hr>
-                    <p class="mb-0">Haz clic en el botón para registrar tu puesto.</p>
-                    <a href="../registrar_puesto/" class="btn btn-primary mt-3">Registrar Puesto</a>
+                    <form id="registroPuestoForm" action="registrar_puesto.php" method="POST">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre del Puesto</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="descripcion_corta" class="form-label">Descripción Corta</label>
+                            <textarea class="form-control" id="descripcion_corta" name="descripcion_corta" rows="2" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="descripcion_larga" class="form-label">Descripción Larga</label>
+                            <textarea class="form-control" id="descripcion_larga" name="descripcion_larga" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3">Registrar Puesto</button>
+                    </form>
                 </div>
             </div>
+
         <?php } ?>
 
         </section>
@@ -113,10 +130,4 @@ include($templateDetails['header']);
 <?php
 include($templateDetails['footer']);
 include($templateDetails['end']);
-
-// mensajes
-if (isset($_SESSION['message'])) {
-    echo '<script>alert("' . $_SESSION['message'] . '")</script>';
-    unset($_SESSION['message']);
-}
 ?>
