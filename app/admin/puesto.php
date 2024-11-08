@@ -202,9 +202,4 @@ while ($row = $result_contactos->fetch_assoc()) {
 include($templateDetails['footer']);
 include($templateDetails['end']);
 
-// mensajes
-if (isset($_SESSION['message'])) {
-    echo '<script>alert("' . $_SESSION['message'] . '")</script>';
-    unset($_SESSION['message']);
-}
 ?>

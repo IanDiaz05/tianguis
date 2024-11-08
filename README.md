@@ -12,17 +12,17 @@ repo del sitio del tianguis del mayab
 
 ## Instrucciones para el panel de vendedores
 
-- para ingresar al panel de vendedores, se debe colocar la sig. url en el navegador: 'localhost/tianguis/app/admin/'
+- para ingresar al panel de vendedores, se debe colocar la sig. url en el navegador: 'http://localhost/tianguis/app/admin/'
 
 el mismo sistema identificara si se inicio sesion anteriormente y dejara ingresar al panel de administrador. de lo contrario, automaticamente se redirigira a la pantalla de _login_, en donde si aun no se tiene una cuenta de vendedor, se podra registrar para poder acceder al panel.
 
 - dentro del panel se encuentran algunos botones:
   - **Puesto**: aqui se puede adminsitrar la informacion del pueso como el nombre, descripcion (corta y larga) e imagenes.
 
-  **IMPORTANTE** las imagenes que se suben del puesto deben estar en formato de URL, para esto es necesario subirlas anteriormente a una plataforma o servidor de imagenes (por ejemplo 'https://postimages.org/es/', es necesario que se seleccione la opcion de '_nunca expira_', tambien es recomendable crear una cuenta para acceder en cualquier momento a las url de las imagenes)
-  
-  Otro punto importante es la seccion de informacion de contacto, el vendedor puede colocar todos sus links a redes sociales o sitio web sin ningun problema, los cuales estaran en un facil acceso a los clientes.
+    **IMPORTANTE** las imagenes que se suben del puesto deben estar en formato de URL, para esto es necesario subirlas anteriormente a una plataforma o servidor de imagenes (por ejemplo 'https://postimages.org/es/', es necesario que se seleccione la opcion de '_nunca expira_', tambien es recomendable crear una cuenta para acceder en cualquier momento a las url de las imagenes)
+    
+    Otro punto importante es la seccion de informacion de contacto, el vendedor puede colocar todos sus links a redes sociales o sitio web sin ningun problema, los cuales estaran en un facil acceso a los clientes.
 
-  Tambien se puede subir informacion de los horarios de atencion o de ventas de los vendedores, en donde elegiran un dia de la semana, asi como la hora de 'inicio' de la venta, y la hora de 'final' de la venta en un formato de **24 hrs**
+    Tambien se puede subir informacion de los horarios de atencion o de ventas de los vendedores, en donde elegiran un dia de la semana, asi como la hora de 'inicio' de la venta, y la hora de 'final' de la venta en un formato de **24 hrs**
   - **Productos**: Esta seccion es parecida a la de 'puesto', se puede administrar la informacion de los productos como el precio, descripcion, nombre e imagenes (por el momento es 1 imagen por producto) y tambien se sube en formato URL.
   Tambien es posible subir y eliminar productos.

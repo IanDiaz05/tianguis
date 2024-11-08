@@ -102,7 +102,7 @@ include($templateDetails['header']);
                     <h4 class="alert-heading">¡Espera, aún no tienes un puesto registrado!</h4>
                     <p>Para comenzar a vender en el Tianguis del Mayab, necesitas registrar tu puesto.</p>
                     <hr>
-                    <form id="registroPuestoForm" action="registrar_puesto.php" method="POST">
+                    <form id="registroPuestoForm">
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Nombre del Puesto</label>
                             <input type="text" class="form-control" id="nombre" name="nombre" required>
@@ -118,6 +118,9 @@ include($templateDetails['header']);
                         <button type="submit" class="btn btn-primary mt-3">Registrar Puesto</button>
                     </form>
                 </div>
+
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script src="/tianguis/BE/admin/registro_puesto.js"></script>
             </div>
 
         <?php } ?>
