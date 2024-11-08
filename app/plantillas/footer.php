@@ -5,14 +5,15 @@
             <!-- About Us Section -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <h5 class="text-white">Sobre el Tianguis del Mayab</h5>
-                <p class="text-white-50">El Tianguis del Mayab es un espacio creado por y para estudiantes, donde cada martes y jueves tienen la oportunidad de ofrecer productos únicos y artesanales. Nuestro objetivo es fomentar el espíritu emprendedor en la comunidad universitaria, brindando un punto de encuentro donde todos puedan descubrir y apoyar el talento local. ¡Ven y sé parte de esta experiencia de intercambio y apoyo estudiantil!</p>
+                <p class="text-white-50">El Tianguis del Mayab es un espacio creado por y para estudiantes, donde cada martes y jueves tienen la oportunidad de ofrecer productos únicos y artesanales.</p>
             </div>
-            <!-- Links Section -->
+            <!-- Objetivo -->
             <div class="col-lg-4 col-md-6 mb-4">
-                <!-- no borrar, se mueven las secciones y no se como repararlo xd -->
+                <h5 class="text-white">Nuestro Objetivo</h5>
+                <p class="text-white-50">Fomentar el espíritu emprendedor en la comunidad universitaria, brindando un punto de encuentro donde todos puedan descubrir y apoyar el talento local.</p>
             </div>
             <!-- Contact Section -->
-            <div class="col-lg-4 col-md-12 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4">
                 <h5 class="text-white">Contáctanos</h5>
                 <p class="text-white-50">
                     <i class="bi bi-telephone"></i> +52 998 1234 5678<br>
@@ -21,16 +22,15 @@
                 <!-- Redes Sociales -->
                 <ul class="list-inline">
                     <li class="list-inline-item"><a href="https://www.facebook.com/ucaribeoficial/?locale=es_LA" target="_blank"><i class="bi bi-facebook text-white"></i></a></li>
-                    <li class="list-inline-item"><a href="#" target="_blank"><i class="bi bi-whatsapp text-white"></i></a></li>
                     <li class="list-inline-item"><a href="https://www.unicaribe.mx/" target="_blank"><i class="bi bi-link text-white"></i></a></li>
                 </ul>
             </div>
         </div>
         
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-lg-12 text-center">
-                <p class="m-0 text-center text-white">Copyright &copy; ian </p>
+                <p class="m-0 text-center text-white">¡Ven y sé parte de esta experiencia de intercambio y apoyo estudiantil!</p>
             </div>
-        </div> -->
+        </div>
     </div>
 </footer>

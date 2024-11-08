@@ -3,7 +3,7 @@ session_start();
 
 // Función para redirigir al login
 function redirectToLogin() {
-    header("Location: /arytza/app/auth/login.php");
+    header("Location: /tianguis/app/admin/login.php");
     exit();
 }
 
