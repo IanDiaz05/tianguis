@@ -16,9 +16,8 @@
     $id_puesto = filter_var($_GET['id'], FILTER_VALIDATE_INT);
     $sql = "
     SELECT
-    p.*, img.url AS img
+    p.*
     FROM puesto p
-    JOIN imagenes_puesto img ON p.id = img.id
     WHERE p.id = ?
     ";
     $stmt = $conn->prepare($sql);

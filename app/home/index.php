@@ -36,7 +36,8 @@
     SELECT
     p.*, img.url AS img
     FROM puesto p
-    JOIN imagenes_puesto img ON p.id = img.id
+    JOIN imagenes_puesto img ON p.id = img.puesto_id
+    GROUP BY p.id
     ";
     $result = $conn->query($sql);
 
