@@ -26,3 +26,4 @@ el mismo sistema identificara si se inicio sesion anteriormente y dejara ingresa
     Tambien se puede subir informacion de los horarios de atencion o de ventas de los vendedores, en donde elegiran un dia de la semana, asi como la hora de 'inicio' de la venta, y la hora de 'final' de la venta en un formato de **24 hrs**
   - **Productos**: Esta seccion es parecida a la de 'puesto', se puede administrar la informacion de los productos como el precio, descripcion, nombre e imagenes (por el momento es 1 imagen por producto) y tambien se sube en formato URL.
   Tambien es posible subir y eliminar productos.
+  - **Cerrar Sesion**: Este boton no tiene mucha ciencia, unicamente termina la sesion del usuario, redirigiendo a la pagina de login y si se desea volver al panel de administracion del negocio se debe volver a ingresar el email y contrasena.
