@@ -7,7 +7,7 @@ $sources = getSourcesVars();
 $templateDetails = getTemplatesVars();
 
     // detalles de la pagina
-    $current_page = "Inicio";
+    $current_page = "Registro";
     $title = "Hola, Bienvenid@ al Tianguis del Mayab";
     $info = "Descubre, Conecta y Apoya a los Emprendedores Universitarios";
 
@@ -33,7 +33,7 @@ include($templateDetails['header']);
         <div class="text-center mb-5">
             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-person-circle"></i></div>
             <h2 class="fw-bolder">Registro</h2>
-            <p class="lead mb-0">Crea una cuenta para disfrutar de los beneficios de Arytza Transfer</p>
+            <p class="lead mb-0">Crea una cuenta para comenzar a publicar los productos de tu negocio en el <b>Tianguis del Mayab</b></p>
         </div>
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-6">
@@ -168,9 +168,4 @@ $(document).ready(function() {
 <?php 
 include($templateDetails['footer']);
 include($templateDetails['end']);
-// mensajes
-if (isset($_SESSION['message'])) {
-    echo '<script>alert("' . $_SESSION['message'] . '")</script>';
-    unset($_SESSION['message']);
-}
 ?>

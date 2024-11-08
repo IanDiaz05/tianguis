@@ -13,7 +13,7 @@ $sources = getSourcesVars();
 $templateDetails = getTemplatesVars();
 
     // detalles de la pagina
-    $current_page = "Inicio";
+    $current_page = "Inicio de Sesión";
     $title = "Hola, Bienvenid@ al Tianguis del Mayab";
     $info = "Descubre, Conecta y Apoya a los Emprendedores Universitarios";
 
@@ -132,9 +132,4 @@ $(document).ready(function() {
 <?php 
 include($templateDetails['footer']);
 include($templateDetails['end']);
-// mensajes
-if (isset($_SESSION['message'])) {
-    echo '<script>alert("' . $_SESSION['message'] . '")</script>';
-    unset($_SESSION['message']);
-}
 ?>
