@@ -74,10 +74,11 @@ include($templateDetails['header']);
             
             <div class="container px-5 my-5">
                 <div class="row gx-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">Administra tu puesto de manera sencilla.</h2>
-                    <!-- link para cerrar la sesion -->
-                    <a href="../../BE/admin/logout.php" class="btn btn-secondary mt-3">Cerrar Sesión</a>
-                </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h2 class="fw-bolder mb-0">Administra tu puesto de manera sencilla.</h2>
+                        <!-- link para cerrar la sesion -->
+                        <a href="../../BE/admin/logout.php" class="btn btn-secondary mt-3">Cerrar Sesión</a>
+                    </div>
                     <div class="col-lg-8">
                         <div class="row gx-5 row-cols-1 row-cols-md-2">
                             <div class="col mb-5 h-100">
