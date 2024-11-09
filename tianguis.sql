@@ -9,7 +9,8 @@ CREATE TABLE vendedor (
     apellido VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
     telefono VARCHAR(100) NOT NULL,
-    password VARCHAR(255) NOT NULL
+    password VARCHAR(255) NOT NULL,
+    fecha_registro DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
 # informacion de los puestos de los vendedores
@@ -19,6 +20,7 @@ CREATE TABLE puesto (
     descripcion_corta VARCHAR(300),
     descripcion_larga TEXT,
     vendedor_id INT NOT NULL,
+    fecha_registro DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (vendedor_id) REFERENCES vendedor(id)
 );
 
