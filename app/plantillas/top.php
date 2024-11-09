@@ -10,7 +10,9 @@
         <link rel="icon" type="image/x-icon" href="<?php echo $sources['favicon']; ?>"/>
         <!-- Bootstrap icons-->
         <link rel="stylesheet" href="<?php echo $sources['bootstrap_icons']; ?>">
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- Bootstrap 5.3.2 CSS-->
         <link href="<?php echo $sources['css']; ?>" rel="stylesheet" />
+        <!-- Custom CSS -->
+        <link href="<?php echo $sources['custom_css']; ?>" rel="stylesheet" />
     </head>
     <body style="margin: 8vh, 0;">

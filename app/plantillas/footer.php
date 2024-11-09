@@ -1,5 +1,5 @@
 <!-- Footer-->
-<footer class="py-5 bg-dark">
+<footer class="py-5 bg-dark navbar-underline">
     <div class="container px-5">
         <div class="row">
             <!-- About Us Section -->

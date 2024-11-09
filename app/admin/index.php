@@ -81,12 +81,12 @@ include($templateDetails['header']);
                     <div class="col-lg-8">
                         <div class="row gx-5 row-cols-1 row-cols-md-2">
                             <div class="col mb-5 h-100">
-                                <a href="puesto.php" style="text-decoration: none; color: inherit;"><div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-shop-window"></i></div></a>
+                                <a href="puesto.php" style="text-decoration: none; color: inherit;"><div class="feature bg-custom-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-shop-window"></i></div></a>
                                 <h2 class="h5">Mi Puesto</h2>
                                 <p class="mb-0">Administra y actualiza toda la información de tu puesto, así como el horario en el que puedes atender a los clientes.</p>
                             </div>
                             <div class="col mb-5 h-100">
-                                <a href="productos.php" style="text-decoration: none; color: inherit;"><div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-basket"></i></div></a>
+                                <a href="productos.php" style="text-decoration: none; color: inherit;"><div class="feature bg-custom-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-basket"></i></div></a>
                                 <h2 class="h5">Mis Productos</h2>
                                 <p class="mb-0">Sube y administra todos tus productos, actualiza su descripción, precio y sube una imagen llamativa.</p>
                             </div>
@@ -94,7 +94,7 @@ include($templateDetails['header']);
                     </div>
                 </div>
             </div>
-
+            
         <?php } else {?>
 
             <div class="container px-5 my-5">

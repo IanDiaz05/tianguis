@@ -1,5 +1,5 @@
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-underline">
             <div class="container px-5">
                 <a class="navbar-brand" href="/tianguis/app/home/">
                     <img src="<?php echo $sources['favicon']; ?>" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
