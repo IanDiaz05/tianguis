@@ -39,7 +39,6 @@ if (mysqli_stmt_execute($stmt)) {                                       // ejecu
             'LAST_ACTIVITY' => time()
         ];
 
-        $_SESSION['message'] = "Bienvenido, " . $_SESSION['usuario']['nombre']; // mensaje de bienvenida
         header("Location: /tianguis/app/admin/");   // redirigir a la página de inicio
 
     } else {                                                        // si las contraseñas no coinciden
