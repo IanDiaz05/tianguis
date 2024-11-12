@@ -52,6 +52,7 @@
     <div class="container px-5 my-5">
         <div class="row gx-5">
             <div class="col-lg-8 mb-5">
+
                 <!-- Carrusel de img del puesto -->
                 <div class="card h-100">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -94,6 +95,7 @@
                         <p class="card-text"><?php echo $datos['descripcion_larga']; ?></p>
                     </div>
                 </div>
+
             </div>
             
             <!-- mantener tamano de imagenes de puesto -->
@@ -172,6 +174,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
 
         <!-- Detalles de los productos -->

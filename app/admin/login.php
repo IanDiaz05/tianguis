@@ -19,12 +19,13 @@ $templateDetails = getTemplatesVars();
 
     // conteindo del modal del header
     $modalBtnTitle = "¿Cómo funciona?";
-    $modalTitle = "¡Tu visita hace la diferencia!";
-    $modalContent = '
-    <p>¡Hola! Bienvenid@ a nuestro sitio web. En el Tianguis del Mayab, nos esforzamos por conectar a los emprendedores universitarios con la comunidad, para que puedan dar a conocer sus productos y servicios.</p>
-    <p>Aquí podrás conocer los increíbles productos que ofrecen nuestros estudiantes en el Tianguis del Mayab, un espacio lleno de creatividad y talento. Explora los puestos, descubre una variedad de artículos únicos, desde deliciosos platillos hasta artesanías y accesorios, ¡y entérate de cuándo y dónde encontrar a tus favoritos!</p>
-    <p>Si tienes alguna duda o sugerencia, no dudes en contactarnos. ¡Gracias por tu visita!</p>
-    ';
+    $modalTitle = "Inicio de Sesión";
+    $modalContent = "
+    <p>Accede a tu cuenta para administrar tu negocio en el Tianguis del Mayab:</p>
+    <p>Si ya tienes una cuenta, ingresa tu dirección de email y tu contraseña para acceder a tu panel de administración.<br>Si eres nuevo/a, puedes registrarte para crear una cuenta y comenzar a publicar tus productos en el Tianguis del Mayab.</p>
+    <p>No olvides mantener tu información actualizada para que tus clientes puedan contactarte y conocer más sobre tus productos.</p>
+    <br><p>¡Gracias por ser parte de nuestra comunidad!</p>
+    ";
     
 //incluir contenido de la pagina (plantillas)
 include($templateDetails['top']);
@@ -36,7 +37,7 @@ include($templateDetails['header']);
 <section class="bg-light py-5">
     <div class="container px-5 my-5 px-5">
         <div class="text-center mb-5">
-            <div class="feature bg-custom-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-person-circle"></i></div>
+            <div class="feature bg-custom-primary text-white rounded-3 mb-3"><i class="bi bi-person-circle"></i></div>
             <h2 class="fw-bolder">Inicio de Sesión</h2>
             <p class="lead mb-0">Ingresa a tu cuenta</p>
         </div>

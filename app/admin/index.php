@@ -14,8 +14,14 @@ $info = "Administra tu puesto en el Tianguis del Mayab, sube tus productos y man
 // contenido del modal del header
 $modalBtnTitle = "¿Cómo funciona?";
 $modalTitle = "Panel de Administración";
-$modalContent = "En esta sección podrás administrar tu puesto en el Tianguis del Mayab, subir tus productos y mantener tu información actualizada.";
-
+$modalContent = "
+<p>En esta sección, puedes gestionar toda la información de tu puesto y de tus productos para optimizar su visibilidad en el Tianguis del Mayab.</p>
+<ul>
+    <li><strong>Mi Puesto</strong>: Aquí puedes actualizar la información de tu negocio, como el nombre, descripciones, horarios de atención, y enlaces de contacto (WhatsApp, redes sociales, correo, etc.). Esto permite a tus clientes saber cuándo y cómo pueden contactarte para conocer más sobre tus productos.</li>
+    <li><strong>Mis Productos</strong>: Agrega, modifica o elimina productos de tu inventario. Puedes actualizar el nombre, la descripción, el precio y agregar imágenes de cada artículo.</li>
+</ul>
+<p>Usa nuestro enlace a la guía de imágenes para aprender a alojarlas externamente en plataformas como PostImage, asegurando que tus productos tengan una presentación visual atractiva.</p>
+";
 
 // verificar si el usuario tiene un puesto registrado
 $query = "
@@ -78,16 +84,19 @@ include($templateDetails['header']);
                         <h2 class="fw-bolder mb-0">Administra tu puesto de manera sencilla.</h2>
                         <!-- link para cerrar la sesion -->
                         <a href="../../BE/admin/logout.php" class="btn btn-secondary mt-3">Cerrar Sesión</a>
+                        <!-- link a la guia de subir imagenes -->
+                        <a href="https://github.com/IanDiaz05/tianguis/blob/main/README.md#subir-imagenes-al-panel--guia" target="_blank" class="btn btn-link mt-3">¿Cómo subir imágenes?</a>
                     </div>
+                    <!-- seccion de botones -->
                     <div class="col-lg-8">
                         <div class="row gx-5 row-cols-1 row-cols-md-2">
                             <div class="col mb-5 h-100">
-                                <a href="puesto.php" style="text-decoration: none; color: inherit;"><div class="feature bg-custom-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-shop-window"></i></div></a>
+                                <a href="puesto.php"><div class="feature bg-custom-primary text-white rounded-3 mb-3"><i class="bi bi-shop-window"></i></div></a>
                                 <h2 class="h5">Mi Puesto</h2>
                                 <p class="mb-0">Administra y actualiza toda la información de tu puesto, así como el horario en el que puedes atender a los clientes.</p>
                             </div>
                             <div class="col mb-5 h-100">
-                                <a href="productos.php" style="text-decoration: none; color: inherit;"><div class="feature bg-custom-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-basket"></i></div></a>
+                                <a href="productos.php"><div class="feature bg-custom-primary text-white rounded-3 mb-3"><i class="bi bi-basket"></i></div></a>
                                 <h2 class="h5">Mis Productos</h2>
                                 <p class="mb-0">Sube y administra todos tus productos, actualiza su descripción, precio y sube una imagen llamativa.</p>
                             </div>

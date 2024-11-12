@@ -13,8 +13,18 @@ $info = "Administra tu puesto en el Tianguis del Mayab, sube tus productos y man
 
 // contenido del modal del header
 $modalBtnTitle = "¿Cómo funciona?";             // titulo del boton del modal
-$modalTitle = "";                               // titulo del modal
-$modalContent = "";                           // contenido del modal
+$modalTitle = "Mi Puesto";                               // titulo del modal
+$modalContent = "
+<p>En esta sección, puedes actualizar y personalizar la información principal de tu puesto para que los visitantes encuentren todos los detalles que necesitan de forma clara y accesible.</p>
+<ul>
+    <li><strong>Nombre del Puesto</strong>: Asegúrate de que el nombre de tu puesto sea claro y fácil de recordar para tus clientes.</li>
+    <li><strong>Descripción Corta</strong>: Proporciona una breve descripción de tu puesto para que los visitantes sepan de qué se trata tu negocio.</li>
+    <li><strong>Descripción Larga</strong>: Detalla la información de tu puesto, como los productos que ofreces, los servicios que proporcionas, y cualquier otra información relevante.</li>
+    <li><strong>Imágenes del Puesto</strong>: Sube imágenes de tu puesto para que los visitantes puedan ver cómo es tu negocio y qué productos ofreces.</li>
+    <li><strong>Horarios de Atención</strong>: Indica los días y horarios en los que tu puesto está abierto para que los clientes sepan cuándo pueden visitarte.</li>
+    <li><strong>Métodos de Contacto</strong>: Proporciona enlaces a tus redes sociales, números de teléfono, direcciones de correo electrónico y otros métodos de contacto para que los visitantes puedan comunicarse contigo.</li>
+</ul>
+";                           // contenido del modal
 
 // incluir contenido de la pagina (plantillas)
 include($templateDetails['top']);

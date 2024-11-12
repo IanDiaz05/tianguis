@@ -13,8 +13,15 @@ $info = "Administra tus productos en el Tianguis del Mayab, sube nuevos producto
 
 // contenido del modal del header
 $modalBtnTitle = "¿Cómo funciona?";             // titulo del boton del modal
-$modalTitle = "";                               // titulo del modal
-$modalContent = "";                           // contenido del modal
+$modalTitle = "Administrar Mis Productos";                               // titulo del modal
+$modalContent = "
+<p>En esta sección, puedes gestionar toda la información de tus productos para optimizar su visibilidad en el Tianguis del Mayab.</p>
+<ul>
+    <li><strong>Vista Previa del Producto</strong>: Aquí puedes ver cómo se verá tu producto en la página principal del Tianguis del Mayab.</li>
+    <li><strong>Modificar Producto</strong>: Puedes actualizar el nombre, la descripción, el precio y la imagen de tu producto. Asegúrate de que la imagen sea atractiva y de alta calidad para atraer a más clientes.</li>
+    <li><strong>Eliminar Producto</strong>: Si un producto ya no está disponible, puedes eliminarlo de tu inventario para mantener tu lista de productos actualizada.</li>
+</ul>
+";                           // contenido del modal
 
 // incluir contenido de la pagina (plantillas)
 include($templateDetails['top']);
