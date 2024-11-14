@@ -9,13 +9,13 @@ $templateDetails = getTemplatesVars();
 // detalles de la pagina
 $current_page = "Inicio";
 $title = "Hola " . $_SESSION['usuario']['nombre'] . ", Bienvenid@ al Panel de Administración";
-$info = "Administra tu puesto en el Tianguis del Mayab, sube tus productos y mantén tu información actualizada";
+$info = "Administra tu puesto en el Tianguis Estudiantil, sube tus productos y mantén tu información actualizada";
 
 // contenido del modal del header
 $modalBtnTitle = "¿Cómo funciona?";
 $modalTitle = "Panel de Administración";
 $modalContent = "
-<p>En esta sección, puedes gestionar toda la información de tu puesto y de tus productos para optimizar su visibilidad en el Tianguis del Mayab.</p>
+<p>En esta sección, puedes gestionar toda la información de tu puesto y de tus productos para optimizar su visibilidad en el Tianguis Estudiantil.</p>
 <ul>
     <li><strong>Mi Puesto</strong>: Aquí puedes actualizar la información de tu negocio, como el nombre, descripciones, horarios de atención, y enlaces de contacto (WhatsApp, redes sociales, correo, etc.). Esto permite a tus clientes saber cuándo y cómo pueden contactarte para conocer más sobre tus productos.</li>
     <li><strong>Mis Productos</strong>: Agrega, modifica o elimina productos de tu inventario. Puedes actualizar el nombre, la descripción, el precio y agregar imágenes de cada artículo.</li>
@@ -110,7 +110,7 @@ include($templateDetails['header']);
             <div class="container px-5 my-5">
                 <div class="alert alert-warning" role="alert">
                     <h4 class="alert-heading">¡Espera, aún no tienes un puesto registrado!</h4>
-                    <p>Para comenzar a vender en el Tianguis del Mayab, necesitas registrar tu puesto.</p>
+                    <p>Para comenzar a vender en el Tianguis Estudiantil, necesitas registrar tu puesto.</p>
                     <hr>
                     <form id="registroPuestoForm">
                         <div class="mb-3">

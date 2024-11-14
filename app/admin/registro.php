@@ -8,16 +8,16 @@ $templateDetails = getTemplatesVars();
 
     // detalles de la pagina
     $current_page = "Registro";
-    $title = "Hola, Bienvenid@ al Tianguis del Mayab";
+    $title = "Hola, Bienvenid@ al Tianguis Estudiantil";
     $info = "Descubre, Conecta y Apoya a los Emprendedores Universitarios";
 
     // conteindo del modal del header
     $modalBtnTitle = "¿Cómo funciona?";
     $modalTitle = "¡Tu visita hace la diferencia!";
     $modalContent = "
-    <p>Regístrate para comenzar a publicar los productos de tu negocio en el Tianguis del Mayab:</p>
-    <p>Si eres nuevo/a, puedes crear una cuenta para acceder a tu panel de administración y comenzar a publicar tus productos en el Tianguis del Mayab.</p>
-    <p>Completa el formulario de registro para unirte al Tianguis del Mayab y comenzar a publicitar tus productos. Proporciona tus datos básicos, como tu nombre, apellido, correo electrónico, teléfono y crea una contraseña segura. Una vez registrado, podrás acceder al panel de administración de tu puesto, donde tendrás la posibilidad de personalizar tu perfil, agregar productos y compartir tus horarios y métodos de contacto.</p>
+    <p>Regístrate para comenzar a publicar los productos de tu negocio en el Tianguis Estudiantil:</p>
+    <p>Si eres nuevo/a, puedes crear una cuenta para acceder a tu panel de administración y comenzar a publicar tus productos en el Tianguis Estudiantil.</p>
+    <p>Completa el formulario de registro para unirte al Tianguis Estudiantil y comenzar a publicitar tus productos. Proporciona tus datos básicos, como tu nombre, apellido, correo electrónico, teléfono y crea una contraseña segura. Una vez registrado, podrás acceder al panel de administración de tu puesto, donde tendrás la posibilidad de personalizar tu perfil, agregar productos y compartir tus horarios y métodos de contacto.</p>
     ";
     
 
@@ -33,7 +33,7 @@ include($templateDetails['header']);
         <div class="text-center mb-5">
             <div class="feature bg-custom-primary text-white rounded-3 mb-3"><i class="bi bi-person-circle"></i></div>
             <h2 class="fw-bolder">Registro</h2>
-            <p class="lead mb-0">Crea una cuenta para comenzar a publicar los productos de tu negocio en el <b>Tianguis del Mayab</b></p>
+            <p class="lead mb-0">Crea una cuenta para comenzar a publicar los productos de tu negocio en el <b>Tianguis Estudiantil</b></p>
         </div>
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-6">

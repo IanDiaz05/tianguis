@@ -9,7 +9,7 @@ $templateDetails = getTemplatesVars();
 // detalles de la pagina
 $current_page = "Actualizar Puesto";
 $title = "Hola " . $_SESSION['usuario']['nombre'] . ", Actualiza la Información de tu Puesto";
-$info = "Administra tu puesto en el Tianguis del Mayab, sube tus productos y mantén tu información actualizada";
+$info = "Administra tu puesto en el Tianguis Estudiantil, sube tus productos y mantén tu información actualizada";
 
 // contenido del modal del header
 $modalBtnTitle = "¿Cómo funciona?";             // titulo del boton del modal

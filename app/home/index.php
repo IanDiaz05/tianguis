@@ -6,15 +6,15 @@
 
     // detalles de la pagina
     $current_page = "Inicio";
-    $title = "Hola, Bienvenid@ al Tianguis del Mayab";
+    $title = "Hola, Bienvenid@ al Tianguis Estudiantil";
     $info = "Descubre, Conecta y Apoya a los Emprendedores Universitarios";
 
     // conteindo del modal del header
     $modalBtnTitle = "¿Cómo funciona?";
     $modalTitle = "¡Tu visita hace la diferencia!";
     $modalContent = '
-    <p>¡Hola! Bienvenid@ a nuestro sitio web. En el Tianguis del Mayab, nos esforzamos por conectar a los emprendedores universitarios con la comunidad, para que puedan dar a conocer sus productos y servicios.</p>
-    <p>Aquí podrás conocer los increíbles productos que ofrecen nuestros estudiantes en el Tianguis del Mayab, un espacio lleno de creatividad y talento. Explora los puestos, descubre una variedad de artículos únicos, desde deliciosos platillos hasta artesanías y accesorios, ¡y entérate de cuándo y dónde encontrar a tus favoritos!</p>
+    <p>¡Hola! Bienvenid@ a nuestro sitio web. En el Tianguis Estudiantil, nos esforzamos por conectar a los emprendedores universitarios con la comunidad, para que puedan dar a conocer sus productos y servicios.</p>
+    <p>Aquí podrás conocer los increíbles productos que ofrecen nuestros estudiantes en el Tianguis Estudiantil, un espacio lleno de creatividad y talento. Explora los puestos, descubre una variedad de artículos únicos, desde deliciosos platillos hasta artesanías y accesorios, ¡y entérate de cuándo y dónde encontrar a tus favoritos!</p>
     <p>Si tienes alguna duda o sugerencia, no dudes en contactarnos. ¡Gracias por tu visita!</p>
     ';
 

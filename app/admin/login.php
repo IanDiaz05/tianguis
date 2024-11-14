@@ -14,15 +14,15 @@ $templateDetails = getTemplatesVars();
 
     // detalles de la pagina
     $current_page = "Inicio de Sesión";
-    $title = "Hola, Bienvenid@ al Tianguis del Mayab";
+    $title = "Hola, Bienvenid@ al Tianguis Estudiantil";
     $info = "Descubre, Conecta y Apoya a los Emprendedores Universitarios";
 
     // conteindo del modal del header
     $modalBtnTitle = "¿Cómo funciona?";
     $modalTitle = "Inicio de Sesión";
     $modalContent = "
-    <p>Accede a tu cuenta para administrar tu negocio en el Tianguis del Mayab:</p>
-    <p>Si ya tienes una cuenta, ingresa tu dirección de email y tu contraseña para acceder a tu panel de administración.<br>Si eres nuevo/a, puedes registrarte para crear una cuenta y comenzar a publicar tus productos en el Tianguis del Mayab.</p>
+    <p>Accede a tu cuenta para administrar tu negocio en el Tianguis Estudiantil:</p>
+    <p>Si ya tienes una cuenta, ingresa tu dirección de email y tu contraseña para acceder a tu panel de administración.<br>Si eres nuevo/a, puedes registrarte para crear una cuenta y comenzar a publicar tus productos en el Tianguis Estudiantil.</p>
     <p>No olvides mantener tu información actualizada para que tus clientes puedan contactarte y conocer más sobre tus productos.</p>
     <br><p>¡Gracias por ser parte de nuestra comunidad!</p>
     ";

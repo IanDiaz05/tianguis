@@ -35,7 +35,7 @@
     $modalBtnTitle = "¿Cómo Comprar?";
     $modalTitle = "¡Tu visita hace la diferencia!";
     $modalContent = '
-    <p>Este sitio web es una plataforma informativa para publicitar los productos y puestos disponibles en el Tianguis del Mayab. Si estás interesado en adquirir algún producto, visita el tianguis ubicado en el estacionamiento de nuestra universidad los días martes y jueves, o comunícate directamente con el vendedor. Toda la información de contacto de cada puesto está disponible en esta página.</p>
+    <p>Este sitio web es una plataforma informativa para publicitar los productos y puestos disponibles en el Tianguis Estudiantil. Si estás interesado en adquirir algún producto, visita el tianguis ubicado en el estacionamiento de nuestra universidad los días martes y jueves, o comunícate directamente con el vendedor. Toda la información de contacto de cada puesto está disponible en esta página.</p>
     <p>¡Apoya a nuestros emprendedores universitarios!</p>
     ';
 

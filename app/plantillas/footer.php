@@ -4,8 +4,8 @@
         <div class="row">
             <!-- About Us Section -->
             <div class="col-lg-4 col-md-6 mb-4">
-                <h5 class="text-white">Sobre el Tianguis del Mayab</h5>
-                <p class="text-white-50">El Tianguis del Mayab es un espacio creado por y para estudiantes, donde cada martes y jueves tienen la oportunidad de ofrecer productos únicos y artesanales.</p>
+                <h5 class="text-white">Sobre el Tianguis Estudiantil</h5>
+                <p class="text-white-50">El Tianguis Estudiantil es un espacio creado por y para estudiantes, donde cada martes y jueves tienen la oportunidad de ofrecer productos únicos y artesanales.</p>
             </div>
             <!-- Objetivo -->
             <div class="col-lg-4 col-md-6 mb-4">
