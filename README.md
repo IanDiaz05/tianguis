@@ -42,4 +42,4 @@ Bienvenido al sitio web del **Tianguis Estudiantil**. Este proyecto es una plata
 
 ## Documentación
 
-Para más detalles sobre la configuración y uso del proyecto, visita nuestra [Wiki](https://github.com/IanDiaz05/tianguis/wiki#tianguis-estudiantil---panel-de-vendedor).
+Para más detalles sobre la configuración y uso del proyecto, visita nuestra [Wiki](https://github.com/IanDiaz05/tianguis/wiki).
