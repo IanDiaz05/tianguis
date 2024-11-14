@@ -85,7 +85,7 @@ include($templateDetails['header']);
                         <!-- link para cerrar la sesion -->
                         <a href="../../BE/admin/logout.php" class="btn btn-secondary mt-3">Cerrar Sesión</a>
                         <!-- link a la guia de subir imagenes -->
-                        <a href="https://github.com/IanDiaz05/tianguis/blob/main/README.md#subir-imagenes-al-panel--guia" target="_blank" class="btn btn-link mt-3">¿Cómo subir imágenes?</a>
+                        <a href="https://github.com/IanDiaz05/tianguis/wiki/Subir-Im%C3%A1genes-al-Panel-%7C-Gu%C3%ADa" target="_blank" class="btn btn-link mt-3">¿Cómo subir imágenes?</a>
                     </div>
                     <!-- seccion de botones -->
                     <div class="col-lg-8">
